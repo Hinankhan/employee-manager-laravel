@@ -20,24 +20,7 @@
             </div>
             <div class="form-group col-md-4">
                 <label for="example-date-input">Date of Joining</label>
-
-                <!-- <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
-                    <input type="text"  name="date_of_joining"  value="{{$employeeArr->date_of_joining}}"
-                        class="form-control datetimepicker-input" data-target="#datetimepicker1" />
-                    <span class="input-group-addon" data-target="#datetimepicker1" data-toggle="datetimepicker">
-                        <span class="glyphicon glyphicon-calendar"></span>
-                    </span>
-                </div> -->
-
-                <!-- <div class="input-group date" id="datetimepicker">
-                <input type="text" class="form-control" name="date_of_joining"  value="{{$employeeArr->date_of_joining}}">
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar"></span>
-                </span>
-                </div> -->
-
-                <!-- <input class="form-control"  type="datetime-local" name="date_of_joining"  value="{{$employeeArr->date_of_joining}}" id="example-date-input"> -->
-                 <input data-provide="datepicker" data-date-format="yyyy-mm-dd " name="date_of_joining"
+                <input data-provide="datepicker" data-date-format="yyyy-mm-dd " name="date_of_joining"
                     class="form-control datepicker" value="{{$employeeArr->date_of_joining}}">
 
             </div>
